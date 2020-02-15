@@ -3,7 +3,7 @@
 
 <head>
 	<title></title>
-   <meta charset="utf-8">
+	<meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,900&display=swap" rel="stylesheet">
@@ -27,7 +27,12 @@
 							<a href="#">blog</a>
 						</div>
 					</nav>
-					<i class="material-icons close-icon">menu</i>
+					<div id="close-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+
 				</div>
 				<div class="dropdown">
 					<a href="#">home</a>
@@ -37,7 +42,7 @@
 				</div>
 				<div class="header-content">
 					<h2 class="header-content__title">always a step ahead<br>go pro</h2>
-					<a href="#" class="header-content__link">Learn More</a>
+					<a href="#form" class="header-content__link">Learn More</a>
 				</div>
 			</div>
 			
@@ -253,15 +258,21 @@
 				<div class="form-box">
 					<div class="form-box__form">
 						<h3 class="form-box__title">Don’t be shy, Say Hello!</h3>
-						<form action="#">
-								<input type="text" name="name" placeholder="Name" class="form-input">
-								<input type="text" name="name" placeholder="Email" class="form-input">
-							<textarea placeholder="Message" class="form-input"></textarea>
-							<button type="submit" class="form-btn">send</button>
+						<form name="contact" action="#" method="post" id="form">
+							<div class = "error_wr">
+								<p class="error"></p>
+									<input type="text" required name="name" id="name" value="" tabindex="1"  placeholder="Name" class="form-input">
+									<input type="email" required name="email" placeholder="Email" class="form-input">
+								<textarea placeholder="Message" class="form-input" ></textarea>
+								<button type="submit" class="form-btn">send</button>
+							</div>
 						</form>
 					</div>
 					<div class="form-box__contact">
-						
+						<h3 class="form-contact__title">Our office</h3>
+						<a href="#">Ukraine, Zaporizhzhia</a>
+						<a href="#">+369522414521</a>
+						<a href="#">marina.ux@gmail.com</a>
 					</div>
 				</div>
 			</div>
