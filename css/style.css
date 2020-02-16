@@ -30,6 +30,7 @@ a:hover,a:active{
 	padding-bottom: 300px;
 	position: relative;
 	z-index: 1;
+	background-attachment: fixed;
 }
 h3.logo-item__title{
 	color: #fff;
@@ -89,7 +90,7 @@ div.dropdown a:hover{
 .header-content{
 	display: grid;
 	place-items: center;
-	margin-top: 200px;
+	margin-top: 100px;
 }
 .header-content__title{
 	text-transform: uppercase;
@@ -126,11 +127,11 @@ p.blog-text{
 /*Blog Services*/
 .blog-services{
 	background-color: #efefef;
-	padding: 90px 0 100px;
+	padding: 30px 0 100px;
 	text-align: center;
 }
 .blog-content{
-	margin-top: 30px;
+	margin-top: 60px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
 	grid-column-gap: 15px;
@@ -161,7 +162,7 @@ p.blog-text{
 /*Blog Projects*/
 .blog-projects{
 	background-color: #f8f8f8;
-	padding: 90px 0 100px;
+	padding: 30px 0 100px;
 	text-align: center;
 }
 .blog-projects__content{
@@ -193,7 +194,7 @@ p.blog-text{
 }
 /*Blog Members*/
 .blog-members{
-	padding: 90px 0 100px;
+	padding: 30px 0 100px;
 	text-align: center;
 }
 .blog-projects__members{
@@ -288,7 +289,7 @@ p.blog-text{
 /*Recent Blog*/
 .recent-blog{
 	background-color: #f8f8f8;
-	padding: 100px 0;
+	padding: 30px 0 100px;
 	text-align: center;
 }
 .recent-content{
@@ -622,6 +623,11 @@ footer{
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
+
+.header {
+    background: url(../img/header.jpg) no-repeat top center;
+    padding-bottom: 100px;
+ }
 
 }
 .error {

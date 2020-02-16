@@ -82,4 +82,7 @@ $(document).ready(function(){
             return 'This is not valid email.';
         }
     }
+     /////////////////Start AOS Animations
+      AOS.init();
+    
 });
